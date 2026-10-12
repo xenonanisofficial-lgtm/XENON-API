@@ -71,7 +71,7 @@ def get_bd_time():
 # ===============================================================
 # TELEGRAM + GITHUB  (ENV VAR FIRST, fallback to hardcoded)
 # ===============================================================
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8779057114:AAHmPO86T9RtZGqa8vSPS2r6-3DDBTsxqzo"
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8779057114:AAGID0aJi3AY-Gt2X9JvqQSXxAJK3GFv3-Y"
 OWNER_ID  = int(os.environ.get("OWNER_ID") or 8008057402)
 
 GITHUB_TOKEN  = os.environ.get("GITHUB_TOKEN") or "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"
